@@ -9,3 +9,5 @@ In the terminal copy and paste this:
 pip install -r requirements.txt
 
 streamlit run Michelle.py
+
+setup webapp https://babygirlinvoice.streamlit.app/
