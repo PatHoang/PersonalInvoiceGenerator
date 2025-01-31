@@ -181,7 +181,7 @@ for idx, subject_data in enumerate(st.session_state['subjects_data']):
         )
     with col2:
         st.session_state['subjects_data'][idx]['lessons'] = st.number_input(
-            "Lessons", min_value=1, step=1, key=f"lessons_{idx}"
+            "Lessons", min_value=0.5, step=0.5, format="%.1f", key=f"lessons_{idx}"
         )
     with col3:
         # Add a remove button for each subject
